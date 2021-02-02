@@ -1,4 +1,4 @@
-## Dashboard witch custom colors
+## Dashboard with custom colors
 
 ```r
 library(shiny)
@@ -8,7 +8,7 @@ ui <- dashboardPage(
   dashboardHeader(),
   dashboardSidebar(),
   dashboardBody(
-    HTML("<h2 style='color:darkred; text-align:center'>Shinydashboard witch custom <i>sidebar</i> and <i>navbar</i> color</h2>")
+    HTML("<h2 style='color:darkred; text-align:center'>Shinydashboard with custom <i>sidebar</i> and <i>navbar</i> color</h2>")
   ),
   tags$head(
     tags$style(HTML("

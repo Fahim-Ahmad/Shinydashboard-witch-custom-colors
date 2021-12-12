@@ -17,6 +17,7 @@ ui <- dashboardPage(
            .skin-blue .main-header .navbar {background-color: darkred;}
            .skin-blue .main-header .navbar .sidebar-toggle:hover{background-color: darkred;}
            .skin-blue .main-sidebar { background-color:  green;}
+           .content-wrapper, .right-side {background-color: #7da2d1;}
            "))
   )
 )
